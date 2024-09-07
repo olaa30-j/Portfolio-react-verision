@@ -74,7 +74,7 @@ const About = () => {
 
                                         <div className="row">
                                             <div className={styles.about_btns}>
-                                                <Link to="./assets/Ola-Adel-ELsayed-Mohamed--Resume.pdf" className="btn_ btn-hire">Download CV</Link>
+                                                <Link to="/assets/Ola-Adel-Elsayed.pdf" className="btn_ btn-hire">Download CV</Link>
                                                 <Link to="https://www.linkedin.com/in/ola-adel-724b76203/" className="btn_ btn-hire">Hire Me</Link>
                                             </div>
                                         </div>

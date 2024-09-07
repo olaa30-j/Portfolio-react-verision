@@ -1,12 +1,10 @@
-.main_content {
-    padding-left: 25%;
-}
-
 .home {
-    min-width: 100vh;
+    min-width: 100vw;
     display: flex;
     color: var(--text-dark-d);
     padding: 1rem;
+    min-height: 100vh;
+    np
 }
 
 /* Home Content */

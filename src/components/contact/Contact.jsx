@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './contact.module.css'
 
 const Contact = () => {
@@ -39,7 +40,7 @@ const Contact = () => {
                             <div className={styles.contact_content}>
                                 <div className={styles.icon}><i className="fa fa-globe-europe"></i></div>
                                 <h5>Visit Our Website</h5>
-                                <a href="#" target="_blank">www.oladel.net</a>
+                                <Link to="#" target="_blank">www.oladel.net</Link>
                             </div>
                         </div>
                     </div>

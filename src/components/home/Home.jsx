@@ -32,7 +32,7 @@ const Home = () => {
 
     return (
         <section className="col-lg-9  col-sm-12">
-            <div className={`${styles.home} section active`} >
+            <div className={`${styles.home} section`} >
                 {/* ---------- Mode Button -------------- */}
                 <a id="mode_button"><i className={`mode fa ${ mode === 'dark' ? 'fa-sun' : 'fa-moon'}`} onClick={()=>handleDarkMode()}></i></a>
                 {/* ---------- Theme Button -------------- */}
