@@ -1,10 +1,8 @@
 .home {
-    min-width: 100vw;
     display: flex;
     color: var(--text-dark-d);
     padding: 1rem;
-    min-height: 100vh;
-    np
+    min-height: 100vh !important;
 }
 
 /* Home Content */
