@@ -91,6 +91,7 @@ aside .nav_item i {
     aside {
         display: none;
         position: fixed;
+        height: 100%;
     }
 
     aside .logo {
