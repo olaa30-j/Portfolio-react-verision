@@ -18,7 +18,7 @@ const Contact = () => {
                         <h4 className={styles.contact_question}>have you any question?</h4>
                         <h5 className={styles.contact_sub_title}>i`m at your services</h5>
 
-                        <div className={`row ${styles.row_center}`}>
+                        <div className='row row_center'>
                             <div className={styles.contact_content}>
                                 <div className={styles.icon}><i className="fa fa-phone"></i></div>
                                 <h5>Call Us On</h5>
