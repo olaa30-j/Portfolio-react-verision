@@ -1,0 +1,80 @@
+.services .service_item {
+    margin-bottom: 2rem;
+    flex: 0 0 32%;
+    max-width: 32%;
+    margin: 1rem 0.3rem;
+}
+
+.service_item .service_item_content {
+    background-color: var(--light-bg-l);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service_item .service_item_content:hover {
+    box-shadow: 0 0 20px rgba(48, 46, 76, 0.15);
+}
+
+.service_item_content .icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_item_content .icon:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
+.service_item .icon .fa {
+    font-size: 2rem;
+    line-height: 60px;
+}
+
+.service_item .icon:hover .fa {
+    font-size: 1.5rem;
+}
+
+.service_item_content h5 {
+    margin-bottom: 1rem;
+    color: var(--text-dark-d);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.service_item_content p {
+    font-weight: 700;
+    color: var(--text-dark-l);
+    line-height: 25px;
+}
+
+
+/* ***********************************  Resposive Style ***************************************** */
+@media (max-width:1028px) {
+    .service_item {
+        flex: 0 0 48% !important;
+        max-width: 48% !important;
+    }
+
+}
+
+
+@media (max-width:645px) {
+    .row_center {
+        justify-content: center !important;
+    }
+
+    .service_item {
+        flex: 0 0 80% !important;
+        max-width: 80% !important;
+    }
+}
+

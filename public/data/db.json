@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Gamez",
+        "github": "https://github.com/olaa30-j/Gamez",
+        "demo": "https://yourproject1demo.com",
+        "video": "https://www.youtube.com/embed/E0vjqq66yC0?si=XbtDDrHsxiHtuJkJ",
+        "type" :"react"
+    },
+    {
+        "name": "Budget Master",
+        "github": "https://github.com/olaa30-j/Budget-Master",
+        "demo": "https://yourproject1demo.com",
+        "video": "https://www.youtube.com/embed/qRTQmY5AtkQ?si=VJr0psSauxlPCHCR",
+        "type" :"react"
+    },
+    {
+        "name": "Classy",
+        "github": "https://github.com/olaa30-j/Classy",
+        "demo": "https://yourproject1demo.com",
+        "video": "https://www.youtube.com/embed/C4X8kh3TWtM?si=c6ZG97jR1rUTNjA3",
+        "type" :"react"
+    },
+    {
+        "name": "Kids E-book",
+        "github": "https://github.com/olaa30-j/kids-e-book",
+        "demo": "https://elegant-nougat-9f26a0.netlify.app/",
+        "video": "https://www.youtube.com/embed/xYBKFdxzmJs?si=rorJrI4QtRc4jPHw",
+        "type" :"website"
+    }
+]

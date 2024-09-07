@@ -1,0 +1,107 @@
+.main_content {
+    padding-left: 25%;
+}
+
+.home {
+    min-width: 100vh;
+    display: flex;
+    color: var(--text-dark-d);
+    padding: 1rem;
+}
+
+/* Home Content */
+
+.home_content {
+    flex: 0 0 60%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.home_content .home_title {
+    font-size: 1.75rem;
+}
+
+.home_content .home_title span {
+    font-size: 2rem;
+    color: var(--main-color);
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.home_content .job_title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.home_content .job_title span {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.home_content p {
+    max-width: 80%;
+    margin-bottom: 3rem;
+}
+
+/* Home Image */
+.home_image {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.home_image img {
+    width: 100%;
+    height: 330px;
+    border-radius: 5px;
+    filter: contrast(105%);
+}
+
+.home_image::after {
+    content: '';
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1;
+    border-bottom: 5px solid var(--main-color);
+    border-right: 5px solid var(--main-color);
+    border-radius: 5px;
+    bottom: -10px;
+    right: 10px;
+}
+
+.home_image::before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1;
+    border-top: 5px solid var(--main-color);
+    border-left: 5px solid var(--main-color);
+    border-radius: 5px;
+    top: 5px;
+    left: 15px;
+}
+
+
+/* ***********************************  Resposive Style ***************************************** */
+@media (max-width: 768px) {
+
+    .home_content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home_content p {
+        max-width: 90%;
+    }
+
+    .home_image {
+        flex: 0 0 80%;
+        max-width: 80%;
+        margin-top: 2rem;
+        margin-left: 5%;
+    }
+}

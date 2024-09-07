@@ -1,0 +1,299 @@
+/* ***********************************  Start Global Style ***************************************** */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+:root {
+    --light-bg-d: #f2f2fc;
+    --light-bg-l: #fdf9ff;
+
+    --dark-bg: #303030;
+
+    --text-dark-d: #302e4d;
+    --text-dark-l: #504e70;
+
+    --main-color: #8A307F;
+
+}
+
+body.dark {
+    --light-bg-d: #151515;
+    --light-bg-l: #222222;
+
+    --dark-bg: #393939;
+
+    --text-dark-d: #ffffff;
+    --text-dark-l: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+/* ````````````````` Text Style``````````````````````` */
+h1 {
+    font-size: clamp(2rem, 3rem, 4rem);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: clamp(1.75rem, 2.5rem, 3.5rem);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: clamp(1.5rem, 2rem, 3rem);
+    font-weight: 500;
+}
+
+h4 {
+    font-size: clamp(1rem, 1.5rem, 2.5rem);
+}
+
+h5 {
+    font-size: clamp(0.875rem, 1.25rem, 2rem);
+}
+
+h6 {
+    font-size: clamp(0.5rem, 0.75rem, 1.5rem);
+}
+
+
+/* ````````````````` contianers Style``````````````````````` */
+.section {
+    background: var(--light-bg-d);
+    min-height: 100vh;
+    display: block;
+    opacity: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem 2rem !important;
+}
+
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 4rem 0;
+    margin: auto;
+}
+
+
+.section.active {
+    z-index: 2;
+    opacity: 1;
+    animation: slider 1s ease;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+/* .row {
+    display: flex;
+    position: relative;
+    margin-inline: 15px;
+    flex-wrap: wrap;
+} */
+
+
+.btn_ {
+    font-weight: 500;
+    padding: 0.75rem 2.25rem;
+    background: var(--main-color);
+    color: white;
+    display: inline-block;
+    border-radius: 40px;
+    white-space: nowrap;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_:hover {
+    transform: scale(1.05);
+}
+
+.dark_shadow {
+    box-shadow: 0px 0px 20px rgba(48, 46, 76, 0.15);
+}
+
+/* ````````````````` Section Title Style``````````````````````` */
+section {
+    padding: 0 !important;
+}
+
+.section_title {
+    flex: 0 0 100%;
+    padding: 1rem;
+    max-width: 100%;
+    margin-bottom: 4rem;
+}
+
+.section_title h2 {
+    color: var(--text-dark-d);
+    position: relative;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.section_title h2::before {
+    content: '';
+    height: 4px;
+    width: 6%;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+}
+
+.section_title h2::after {
+    content: '';
+    height: 4px;
+    width: 4%;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+}
+
+/* ***********************************  End Global Style ***************************************** */
+
+
+/* ***********************************  Start Main Section Style ********************************* */
+
+
+.toggle {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    display: none;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: fit-content !important;
+    color: var(--main-color);
+    z-index: 1000;
+}
+
+#mode_button {
+    position: fixed;
+    cursor: pointer;
+    z-index: 100;
+    top: 20%;
+    right: 2rem;
+    background-color: var(--light-bg-l);
+    border-radius: 50%;
+}
+
+.mode,
+.theme {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+}
+
+.theme {
+    animation: rotate 2s linear infinite;
+    color: var(--main-color);
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.themes {
+    display: none;
+    flex-wrap: wrap;
+    margin-top: 0.3rem;
+}
+
+.theme_btns {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.color_switcher {
+    position: fixed;
+    top: 25%;
+    right: 2rem;
+    background-color: var(--light-bg-l);
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.color_switcher_show {
+    right: 0;
+}
+
+.hidden_items {
+    display: block !important;
+}
+
+.color_btn {
+    display: flex;
+    align-items: center;
+}
+
+.color_btn h5 {
+    display: none;
+    color: var(--main-color);
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 0.3rem;
+}
+
+.show{
+    display: flex;
+}
+
+.back-section {
+    z-index: 1;
+}
+/* ***********************************  End Main Section Style *********************************** */
+
+/* ***********************************  Start Responsive Style *********************************** */
+
+@media (max-width:645px) {
+    .row_center {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width:991px) {
+    .toggle {
+        display: inline-block !important;
+        z-index: 1000;
+    }
+}
