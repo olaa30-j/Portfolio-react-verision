@@ -2,7 +2,6 @@
     display: flex;
     color: var(--text-dark-d);
     padding: 1rem;
-    min-height: 100vh !important;
 }
 
 /* Home Content */

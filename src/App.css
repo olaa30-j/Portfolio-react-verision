@@ -80,14 +80,16 @@ h6 {
 /* ````````````````` contianers Style``````````````````````` */
 .section {
     background: var(--light-bg-d);
-    min-height: 100vh;
+    min-height: 100vh !important;
     display: block;
     opacity: 1;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 1rem 2rem !important;
 }
 
+section{
+    padding: 0 !important;
+}
 
 .container {
     max-width: 1100px;
@@ -95,31 +97,6 @@ h6 {
     padding: 4rem 0;
     margin: auto;
 }
-
-
-.section.active {
-    z-index: 2;
-    opacity: 1;
-    animation: slider 1s ease;
-}
-
-@keyframes slider {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
-
-
-/* .row {
-    display: flex;
-    position: relative;
-    margin-inline: 15px;
-    flex-wrap: wrap;
-} */
 
 
 .btn_ {
@@ -144,9 +121,6 @@ h6 {
 }
 
 /* ````````````````` Section Title Style``````````````````````` */
-section {
-    padding: 0 !important;
-}
 
 .section_title {
     flex: 0 0 100%;
@@ -278,9 +252,6 @@ section {
     display: flex;
 }
 
-.back-section {
-    z-index: 1;
-}
 /* ***********************************  End Main Section Style *********************************** */
 
 /* ***********************************  Start Responsive Style *********************************** */
