@@ -3,8 +3,8 @@ import styles from "./about.module.css";
 
 const About = () => {
     return (
-        <div className={`${styles.about_section} col-lg-9  col-sm-12`}>
-            <section className="section">
+        <section className={`${styles.about_section} col-lg-9  col-sm-12`}>
+            <div className="section">
                 <div className={`${styles.about}`} >
                     <div className="container">
                         <div className="row">
@@ -265,8 +265,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
 

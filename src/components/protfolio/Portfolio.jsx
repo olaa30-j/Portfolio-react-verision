@@ -17,8 +17,8 @@ const Portfolio = () => {
     }
 
     return (
-        <section className={`${styles.portfolio} section col-lg-9  col-sm-12`}>
-            <div className="container">
+        <section className= 'col-lg-9 col-sm-12'>
+            <div className="container section">
                 <div className="row">
                     <div className="section_title">
                         <h2>
