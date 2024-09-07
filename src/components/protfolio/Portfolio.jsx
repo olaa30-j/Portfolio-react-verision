@@ -20,7 +20,7 @@ const Portfolio = () => {
         <section className= 'col-lg-9 col-sm-12'>
             <div className="container section">
                 <div className="row">
-                    <div className="section_title">
+                    <div className={`${styles.title} section_title`}>
                         <h2>
                             Portfolio
                         </h2>

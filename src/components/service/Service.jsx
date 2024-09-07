@@ -2,10 +2,10 @@ import styles from './service.module.css';
 
 const Service = () => {
     return (
-    <section className={`${styles.services} col-lg-9  col-sm-12`}>
-        <div className="container section">
+    <section className='col-lg-9  col-sm-12'>
+        <div className={`${styles.services} container section`}>
             <div className="row">
-                <div className="section_title">
+                <div className={`${styles.title} section_title`}>
                     <h2>
                         Services
                     </h2>
