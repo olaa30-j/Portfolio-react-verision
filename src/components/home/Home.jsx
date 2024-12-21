@@ -66,7 +66,7 @@ const Home = () => {
                         </div>
 
                         <div className={styles.home_image}>
-                            <img src="/assets/images/profile.png" alt="Ola Adel" className={styles.user_img} />
+                            <img src="/assets/profile.png" alt="Ola Adel" className={styles.user_img} />
                         </div>
                     </div>
                 </div>
