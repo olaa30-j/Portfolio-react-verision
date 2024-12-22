@@ -158,7 +158,7 @@ const About = () => {
                                                         <div className={styles.timeline_item}>
                                                             <div className={styles.dot}></div>
                                                             <h5 className={styles.timeline_date}>
-                                                                <i className="fa fa-calendar"></i> mar 2023 - jul 2023
+                                                                <i className="fa fa-calendar"></i> may 2024 - nov 2024
                                                             </h5>
                                                             <h6 className={styles.timeline_title}>Information
                                                                 Technology
@@ -217,16 +217,9 @@ const About = () => {
                                                         <div className={styles.timeline_item}>
                                                             <div className={styles.dot}></div>
                                                             <h5 className={styles.timeline_date}>
-                                                                <i className="fa fa-calendar"></i> sep 2016 - may 2020
+                                                                <i className="fa fa-calendar"></i> nov 2023 - mar 2024
                                                             </h5>
-                                                            <h6 className={styles.timeline_title}>Mother
-                                                                Care
-                                                                Website
-                                                                and
-                                                                Application
-                                                                (React,
-                                                                React
-                                                                Native)</h6>
+                                                            <h6 className={styles.timeline_title}>Front-end Developer</h6>
                                                             <p className={styles.timeline_text}>
                                                                 <span>Information
                                                                     Technology
@@ -237,11 +230,27 @@ const About = () => {
                                                                 <br />- Garnered acclaim for the app&apos;s intuitive UI and UX, allowing seamless interaction with vital info.
                                                             </p>
                                                         </div>
-
                                                         <div className={styles.timeline_item}>
                                                             <div className={styles.dot}></div>
                                                             <h5 className={styles.timeline_date}>
-                                                                <i className="fa fa-calendar"></i> nov 2022 - present
+                                                                <i className="fa fa-calendar"></i> may 2024 - nov 2024
+                                                            </h5>
+                                                            <h6 className={styles.timeline_title}>Full Stack developer by MERN</h6>
+                                                            <p className={styles.timeline_text}>
+                                                                <span>Information
+                                                                    Technology
+                                                                    Institue
+                                                                    (ITI)</span><br />
+                                                                - Led a team of 5 interns to build a Khamsat website clone built by Next.js and a dashboard built by Angular, following Agile project management. 
+                                                                <br />- Managed version control with Git, conducted code reviews, and deployed the project using Vercel across 2 projects.
+                                                                <br />- Enhanced backend expertise across 3 full-stack projects, utilizing Nest.js, Node.js, Express, and GraphQL, along with REST APIs for efficient data management.
+                                                                <br />- Implemented Swagger for comprehensive API documentation and applied unit-testing using Jasmine.
+                                                            </p>
+                                                        </div>
+                                                        <div className={styles.timeline_item}>
+                                                            <div className={styles.dot}></div>
+                                                            <h5 className={styles.timeline_date}>
+                                                                <i className="fa fa-calendar"></i> nov 2023 - present
                                                             </h5>
                                                             <h6 className={styles.timeline_title}>Freelance
                                                                 Web
